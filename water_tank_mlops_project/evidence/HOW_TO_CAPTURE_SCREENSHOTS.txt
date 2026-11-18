@@ -1,0 +1,7 @@
+Capture these screenshots after running the project:
+1. Terminal showing `pytest -q` with all tests passed.
+2. MLflow UI showing experiment run and registered model WaterShortageClassifier.
+3. GitHub repository Actions tab showing the successful workflow run after push.
+4. FastAPI /docs or POST /predict request and actual JSON response.
+5. Folder view showing V1, V2, feature store, model and report.
+Do not edit sample schema files to pretend they are real execution screenshots.

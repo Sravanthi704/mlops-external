@@ -1,0 +1,18 @@
+{
+  "tank_capacity_litres": 100000,
+  "shortage_threshold_litres": 15000.0,
+  "versions": {
+    "V1": {
+      "file": "water_tank_v1.csv",
+      "rows": 250,
+      "description": "Baseline mixed-demand synthetic nights."
+    },
+    "V2": {
+      "file": "water_tank_v2_summer.csv",
+      "rows": 250,
+      "description": "Summer scenario; per-household demand multiplier increased by 35%."
+    }
+  },
+  "target_definition": "1 when simulated 6:00 AM tank level is below 15,000 litres; otherwise 0.",
+  "seed": 42
+}

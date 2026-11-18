@@ -1,0 +1,5 @@
+{
+  "status": "not_registered_in_build_environment",
+  "instruction": "Install requirements and rerun python src/train.py to create MLflow tracking run and registered model.",
+  "reason": "The filesystem tracking backend (e.g., './mlruns') is in maintenance mode and will not receive further updates. Please migrate to a database backend (e.g., 'sqlite:///mlflow.db') to access the latest MLflow features. The `mlflow migrate-filestore` tool migrates your existing data losslessly. See https://mlflow.org/docs/latest/self-hosting/migrate-from-file-store for migration guidance. If the filesystem backend is required for your workflow, set `MLFLOW_ALLOW_FILE_STORE=true` to opt out of this exception."
+}

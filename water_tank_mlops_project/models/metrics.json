@@ -1,0 +1,90 @@
+{
+  "selected_model": "DecisionTree",
+  "selection_rule": "Highest shortage recall, then F1, then precision.",
+  "models": {
+    "DecisionTree": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1_score": 0.8,
+      "confusion_matrix": [
+        [
+          54,
+          0
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9473684210526315,
+          "recall": 1.0,
+          "f1-score": 0.972972972972973,
+          "support": 54.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.8,
+          "support": 9.0
+        },
+        "accuracy": 0.9523809523809523,
+        "macro avg": {
+          "precision": 0.9736842105263157,
+          "recall": 0.8333333333333333,
+          "f1-score": 0.8864864864864865,
+          "support": 63.0
+        },
+        "weighted avg": {
+          "precision": 0.9548872180451128,
+          "recall": 0.9523809523809523,
+          "f1-score": 0.9482625482625483,
+          "support": 63.0
+        }
+      }
+    },
+    "RandomForest": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1_score": 0.8,
+      "confusion_matrix": [
+        [
+          54,
+          0
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9473684210526315,
+          "recall": 1.0,
+          "f1-score": 0.972972972972973,
+          "support": 54.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.8,
+          "support": 9.0
+        },
+        "accuracy": 0.9523809523809523,
+        "macro avg": {
+          "precision": 0.9736842105263157,
+          "recall": 0.8333333333333333,
+          "f1-score": 0.8864864864864865,
+          "support": 63.0
+        },
+        "weighted avg": {
+          "precision": 0.9548872180451128,
+          "recall": 0.9523809523809523,
+          "f1-score": 0.9482625482625483,
+          "support": 63.0
+        }
+      }
+    }
+  }
+}

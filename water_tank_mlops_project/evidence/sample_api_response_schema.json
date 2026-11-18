@@ -1,0 +1,5 @@
+{
+  "prediction": "Shortage Risk or Adequate Reserve",
+  "shortage_probability": "0.0 to 1.0",
+  "threshold_litres": 15000
+}

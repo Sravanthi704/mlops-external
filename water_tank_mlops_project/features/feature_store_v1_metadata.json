@@ -1,0 +1,21 @@
+{
+  "version": "v1",
+  "rows": 250,
+  "feature_names": [
+    "tank_level_8pm_litres",
+    "connected_households",
+    "avg_hourly_consumption_litres",
+    "expected_pumping_duration_hours",
+    "expected_pumping_rate_lph",
+    "leakage_estimate_lph",
+    "expected_overnight_demand",
+    "expected_pump_supply",
+    "projected_water_buffer",
+    "day_type"
+  ],
+  "engineered_features": [
+    "expected_overnight_demand",
+    "expected_pump_supply",
+    "projected_water_buffer"
+  ]
+}

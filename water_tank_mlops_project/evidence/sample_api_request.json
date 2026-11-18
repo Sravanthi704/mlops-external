@@ -1,0 +1,9 @@
+{
+  "tank_level_8pm_litres": 26000,
+  "connected_households": 80,
+  "avg_hourly_consumption_litres": 420,
+  "expected_pumping_duration_hours": 1.5,
+  "expected_pumping_rate_lph": 12000,
+  "leakage_estimate_lph": 250,
+  "day_type": "weekday"
+}
